@@ -17,7 +17,7 @@ function calculate_ranks(scores) {
   for (let i = 0; i < sortedScores.length; i++) {
     const score = sortedScores[i];
 
-    //check element is already exixt in the object or not, if not then set the  property and value as a rank
+    //check element is already exist in the object or not, if not then set the  property and value as a rank
     if (!(score in scoreToRank)) {
       scoreToRank[score] = i + 1;
     }
