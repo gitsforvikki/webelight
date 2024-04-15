@@ -56,5 +56,5 @@ let calculate_steps = (floor) => {
   return "invalid floor";
 };
 
-let steps = calculate_steps(10);
+let steps = calculate_steps(6);
 console.log(steps);
